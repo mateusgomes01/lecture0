@@ -1,17 +1,66 @@
 <!DOCTYPE html>
+
+
 <html>
 	<head>
+		<style>
+			body {
+				background-color: white;
+			}
+
+			h1 {
+				border-width: 6px;
+				border-color: black;
+		        border-style: solid;
+				text-align: center;
+			}
+
+			h2 {
+				text-align: center;
+			}
+
+			#galery {
+				border-style: solid;
+				border-width: 5px;
+			}
+
+			.album {
+				border-color: black;
+		        border-style: solid;
+		        border-width: 3px;
+		        width: 25%;
+		        margin: 10px;
+		        padding: 10px;
+		        text-align: center;
+		        display: block;
+			}
+
+			.cover {
+				border-style: solid;
+		        border-color: black;
+		        border-width: 5px;
+		        width: 75%;
+			}
+
+			.album-text {
+				text-align: center;
+			}
+		</style>
+		
+	</head>
+	<body>
 		<title>Japanese Fusion Jazz Archive</title>
 		<h1>Japanese Fusion Jazz Archive</h1>
 		<h2>A place where you can find all about japanese fusion jazz discography!</h2>
-	</head>
-	<body>
-		<div>
-			<div>
-				<img src="images/mintjams.jpg">
-				<h3>Mint Jams</h3>
-				<h3>Casiopea</h3>
-				<h3>1982</h3>
+
+		<div id="galery">
+			<div class="album">
+				<img class="cover" src="images/mintjams.jpg">
+				<div class="album-text">
+					<h4>Mint Jams</h4>
+					<h4>Casiopea</h4>
+					<h4>1982</h4>					
+				</div>
 			</div>
 		</div>
 	</body>
